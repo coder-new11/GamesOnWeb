@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WELCOME</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=VT323');
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'VT323', monospace;
+}
+.homepage {
+    height:100%;
+    background-color:black;
+    color:green;
+    text-align:center;
+    
+}
+h1 {
+    margin:0;
+    padding-top:10%;
+    padding-bottom:2%;
+}
+input[type=submit] {
+    font-family: 'VT323', monospace;
+    color:green;
+    background-color:black;
+    border:none;
+    font-size:25px;
+}
+</style>
+</head>
+<body>
+    
+<div class="homepage">
+    <h1>Shall we play a game?</h1>
+    
+    <form method="POST" action="/space-invaders">
+        <input type="submit" value="Space Invaders">   
+    </form>
+    <br>
+    <form method="POST" action="/homemade">
+        <input type="submit" value="Homemade">   
+    </form>
+    <br>
+    <form method="POST" action="/interactive-buddy">
+        <input type="submit" value="Interactive Buddy">   
+    </form>
+</div>
+</body>
+</html>

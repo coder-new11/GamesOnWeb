@@ -1,0 +1,3 @@
+class Buddy
+    
+end
